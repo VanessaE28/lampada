@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    background: linear-gradient(blueviolet, pink, white);
+    display: flex;    /* alinhar a div */
+    align-items: center;    /* deixa o item no centro na vertical */
+    justify-content: center;    /* deixa o item no centro na horizontal */
+}
+
+.central {
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 30px;    /* borda da div */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   /* mudar direção */
+    gap: 20px; /* afastar itens na div */
+}
+
+.central button{
+    width: 100px;
+    height: 40px;
+    border: none;  /* tirar a borda do botão */
+    outline: none;
+    border-radius: 10px;
+    background: blueviolet;
+    color: white;
+    cursor: pointer;   /* colocar o cursor no botão */
+}
